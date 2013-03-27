@@ -1,9 +1,9 @@
 
 public class Cube {
 //represent a singular cube, one of 27 in this game of rubicks cube
-	private Color  color0;
-	private Color  color1; 
-	private Color  color2;
+	private Color  color0; //x
+	private Color  color1; //y
+	private Color  color2; //z
 	private int[][] position = new int[3][3]; //where the cube is initially placed
 	
 	public Cube(){
@@ -42,10 +42,4 @@ public class Cube {
 	public void setColor2(Color color2) {
 		this.color2 = color2;
 	}
-
-
-
-
-
-
 }

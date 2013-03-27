@@ -10,4 +10,8 @@ public class CubeFace {
 	public void setFace(Cube[][] face) {
 		this.face = face;
 	}
+	
+	public void setFace(int x, int y, Cube c){
+		this.face[x][y] = c;
+	}
 }
